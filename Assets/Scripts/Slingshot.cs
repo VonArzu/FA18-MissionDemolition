@@ -71,6 +71,7 @@ public class Slingshot : MonoBehaviour
             FollowCam.POI = projectile;
             projectile = null;
 
+
         }
         
     }

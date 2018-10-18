@@ -945,10 +945,10 @@ MonoBehaviour:
   uitButton: {fileID: 802696816}
   castlePos: {x: 0, y: 0, z: 0}
   castles:
-  - {fileID: 1391539285152802, guid: d508665dc938e7046ac3b3e7730a6338, type: 2}
-  - {fileID: 1391539285152802, guid: 775816f272de0cf40b2b6271a5270cf0, type: 2}
-  - {fileID: 1457604409817252, guid: b7982cde3aef66e40ac25c11a7fc36fe, type: 2}
-  - {fileID: 1391539285152802, guid: 8f4d97d12cd559d4c9830bc32ce64591, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   level: 0
   levelMax: 0
   shotsTaken: 0
@@ -1046,6 +1046,48 @@ MonoBehaviour:
   cloudScaleMin: 1
   cloudScaleMax: 3
   cloudSpeedMult: 0.5
+--- !u!1001 &1561963785
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4241796568249888, guid: d508665dc938e7046ac3b3e7730a6338, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4241796568249888, guid: d508665dc938e7046ac3b3e7730a6338, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -9.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4241796568249888, guid: d508665dc938e7046ac3b3e7730a6338, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4241796568249888, guid: d508665dc938e7046ac3b3e7730a6338, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4241796568249888, guid: d508665dc938e7046ac3b3e7730a6338, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4241796568249888, guid: d508665dc938e7046ac3b3e7730a6338, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4241796568249888, guid: d508665dc938e7046ac3b3e7730a6338, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4241796568249888, guid: d508665dc938e7046ac3b3e7730a6338, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d508665dc938e7046ac3b3e7730a6338, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1665489582
 GameObject:
   m_ObjectHideFlags: 0

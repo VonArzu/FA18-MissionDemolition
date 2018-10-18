@@ -42,7 +42,7 @@ public class Slingshot : MonoBehaviour
 
     void OnMouseExit()
     {
-        //print("Slingshot: OnMouseExit()");
+       // print("Slingshot: OnMouseExit()");
         launchPoint.SetActive(false);
     }
     void OnMouseDown()
@@ -81,7 +81,7 @@ public class Slingshot : MonoBehaviour
             projectileRigidbody.velocity = -mouseDelta * velocityMult;
             FollowCam.POI = projectile;
             projectile = null;
-            //MissionDemolition.ShotFired();
+            MissionDemolition.ShotFired();
             ProjectileLine.S.poi = projectile;
 
         }
